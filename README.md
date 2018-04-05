@@ -4,7 +4,7 @@ siege performance tests for Object Storage Servers
 ## Prerequisites
 
 Make sure the following are installed:
-- siege
+- siege (***NB Make sure to use a version 3.0.x -- not the latest***)
 - parallel
 - mc
 - jq
