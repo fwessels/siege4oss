@@ -29,7 +29,7 @@ $ mc share download --json beast2/perf5mb | jq -r '.share' > urls.txt
 
 4. Test the server
 ```
-$ siege -c 25 -i -b --time=10s --file="urls.txt" --log="siege.log"
+$ siege -c 25 -q -i -b --time=10s --file="urls.txt" --log="siege.log"
 ** SIEGE 3.0.8
 ** Preparing 25 concurrent users for battle.
 The server is now under siege...
