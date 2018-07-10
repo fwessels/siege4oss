@@ -55,13 +55,3 @@ Change number of concurrent clients via `-c` parameter and/or the duration of th
 ```
 $ mc rm --recursive --force beast2/perf5mb
 ```
-
-## Write (POST) performance
-
-```
-$ mc share upload beast2/webserver/5MB.blob
-```
-
-```
-$ siege -c 2 
-```
